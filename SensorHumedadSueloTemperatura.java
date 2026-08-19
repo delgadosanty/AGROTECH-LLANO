@@ -5,7 +5,7 @@ public interface AdaptadorHardware {
     OptionalDouble leer() throws FallaHardwareSensorException;
 }
 import java.util.OptionalDouble;
-
+//CLASE SensorHumedadSuelo
 public class SensorTemperatura extends Sensor {
 
   
@@ -27,7 +27,7 @@ public class SensorTemperatura extends Sensor {
     }
 }
 import java.util.OptionalDouble;
-
+//CLASE  SensorTemperatura 
 public class SensorHumedadSuelo extends Sensor {
 
     private final AdaptadorHardware adaptador;
